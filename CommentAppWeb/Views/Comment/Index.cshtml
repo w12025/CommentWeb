@@ -1,0 +1,33 @@
+@model System.Collections.Generic.List<CommentAppWeb.Models.Comment>?
+@{
+    ViewData["Title"] = "Comments";
+}
+
+<h1 class="text-center mb-3">Comments</h1>
+
+
+<div class="container">
+    <div class="row">
+        <p>
+            <a asp-action="Create">Create New</a>
+        </p>
+        @foreach (var comment in Model)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-header text-info">
+                        @comment.Username
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-success">@comment.Title</h5>
+                        <p class="card-text text-secondary">@comment.Description</p>
+                        <br>
+                        <a href="@Url.Action("Details", "comment", new { id = comment.Id })" class="btn btn-outline-primary">View Details</a>
+                        <a href="@Url.Action("Edit", "comment", new { id = comment.Id })" class="btn btn-outline-dark">Edit</a>
+                        <a href="@Url.Action("Delete", "comment", new { id = comment.Id })" class="btn btn-outline-danger">Delete</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

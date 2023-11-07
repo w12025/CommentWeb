@@ -1,0 +1,36 @@
+@model CommentAppWeb.Models.Comment?
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Comment</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(comment => comment!.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(comment => comment!.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(comment => comment!.Title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(comment => comment!.Title)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(comment => comment!.Username)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(comment => comment!.Username)
+        </dd>
+    </dl>
+</div>
+<div>
+    @* @Html.ActionLink("Edit", "Edit", new { id = Model.Id}) | *@
+    <a asp-action="Index">Back to List</a>
+</div>

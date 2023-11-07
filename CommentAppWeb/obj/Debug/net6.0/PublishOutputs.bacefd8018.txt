@@ -1,0 +1,10 @@
+C:\Users\Windows 10\OneDrive\Рабочий стол\app\CommentAppWeb.exe
+C:\Users\Windows 10\OneDrive\Рабочий стол\app\appsettings.Development.json
+C:\Users\Windows 10\OneDrive\Рабочий стол\app\appsettings.json
+C:\Users\Windows 10\OneDrive\Рабочий стол\app\CommentAppWeb.dll
+C:\Users\Windows 10\OneDrive\Рабочий стол\app\CommentAppWeb.deps.json
+C:\Users\Windows 10\OneDrive\Рабочий стол\app\CommentAppWeb.runtimeconfig.json
+C:\Users\Windows 10\OneDrive\Рабочий стол\app\CommentAppWeb.pdb
+C:\Users\Windows 10\OneDrive\Рабочий стол\app\System.Net.Http.Formatting.dll
+C:\Users\Windows 10\OneDrive\Рабочий стол\app\Newtonsoft.Json.dll
+C:\Users\Windows 10\OneDrive\Рабочий стол\app\Newtonsoft.Json.Bson.dll
